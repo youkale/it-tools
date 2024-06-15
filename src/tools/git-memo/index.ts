@@ -4,7 +4,7 @@ import { translate } from '@/plugins/i18n.plugin';
 
 export const tool = defineTool({
   name: translate('tools.git-memo.title'),
-  path: '/git-memo',
+  path: '/git-tips',
   description: translate('tools.git-memo.description'),
   keywords: ['git', 'push', 'force', 'pull', 'commit', 'amend', 'rebase', 'merge', 'reset', 'soft', 'hard', 'lease'],
   component: () => import('./git-memo.vue'),

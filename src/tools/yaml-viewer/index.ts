@@ -4,10 +4,10 @@ import { translate } from '@/plugins/i18n.plugin';
 
 export const tool = defineTool({
   name: translate('tools.yaml-prettify.title'),
-  path: '/yaml-prettify',
+  path: '/yml-prettify',
   description: translate('tools.yaml-prettify.description'),
   keywords: ['yaml', 'viewer', 'prettify', 'format'],
   component: () => import('./yaml-viewer.vue'),
   icon: AlignJustified,
-  createdAt: new Date('2024-01-31'),
+  createdAt: new Date('2021-11-21'),
 });

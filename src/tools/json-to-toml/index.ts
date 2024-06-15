@@ -4,7 +4,7 @@ import { translate } from '@/plugins/i18n.plugin';
 
 export const tool = defineTool({
   name: translate('tools.json-to-toml.title'),
-  path: '/json-to-toml',
+  path: '/json-2-toml-converter',
   description: translate('tools.json-to-toml.description'),
   keywords: ['json', 'parse', 'toml', 'convert', 'transform'],
   component: () => import('./json-to-toml.vue'),

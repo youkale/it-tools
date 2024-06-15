@@ -84,8 +84,29 @@ import { tool as yamlViewer } from './yaml-viewer';
 
 export const toolsByCategory: ToolCategory[] = [
   {
-    name: 'Crypto',
-    components: [tokenGenerator, hashText, bcrypt, uuidGenerator, ulidGenerator, cypher, bip39, hmacGenerator, rsaKeyPairGenerator, passwordStrengthAnalyser, pdfSignatureChecker],
+    name: 'Web',
+    components: [
+      urlEncoder,
+      htmlEntities,
+      urlParser,
+      deviceInformation,
+      basicAuthGenerator,
+      metaTagGenerator,
+      otpCodeGeneratorAndValidator,
+      mimeTypes,
+      jwtParser,
+      keycodeInfo,
+      slugifyString,
+      htmlWysiwygEditor,
+      userAgentParser,
+      httpStatusCodes,
+      jsonDiff,
+      safelinkDecoder,
+    ],
+  },
+  {
+    name: 'Data',
+    components: [phoneParserAndFormatter, ibanValidatorAndParser],
   },
   {
     name: 'Converter',
@@ -110,38 +131,11 @@ export const toolsByCategory: ToolCategory[] = [
     ],
   },
   {
-    name: 'Web',
-    components: [
-      urlEncoder,
-      htmlEntities,
-      urlParser,
-      deviceInformation,
-      basicAuthGenerator,
-      metaTagGenerator,
-      otpCodeGeneratorAndValidator,
-      mimeTypes,
-      jwtParser,
-      keycodeInfo,
-      slugifyString,
-      htmlWysiwygEditor,
-      userAgentParser,
-      httpStatusCodes,
-      jsonDiff,
-      safelinkDecoder,
-    ],
-  },
-  {
-    name: 'Images and videos',
-    components: [qrCodeGenerator, wifiQrCodeGenerator, svgPlaceholderGenerator, cameraRecorder],
-  },
-  {
     name: 'Development',
     components: [
-      gitMemo,
+      jsonMinify, jsonViewer, gitMemo,
       randomPortGenerator,
       crontabGenerator,
-      jsonViewer,
-      jsonMinify,
       jsonToCsv,
       sqlPrettify,
       chmodCalculator,
@@ -149,18 +143,6 @@ export const toolsByCategory: ToolCategory[] = [
       xmlFormatter,
       yamlViewer,
     ],
-  },
-  {
-    name: 'Network',
-    components: [ipv4SubnetCalculator, ipv4AddressConverter, ipv4RangeExpander, macAddressLookup, macAddressGenerator, ipv6UlaGenerator],
-  },
-  {
-    name: 'Math',
-    components: [mathEvaluator, etaCalculator, percentageCalculator],
-  },
-  {
-    name: 'Measurement',
-    components: [chronometer, temperatureConverter, benchmarkBuilder],
   },
   {
     name: 'Text',
@@ -175,8 +157,24 @@ export const toolsByCategory: ToolCategory[] = [
     ],
   },
   {
-    name: 'Data',
-    components: [phoneParserAndFormatter, ibanValidatorAndParser],
+    name: 'Images and videos',
+    components: [qrCodeGenerator, wifiQrCodeGenerator, svgPlaceholderGenerator, cameraRecorder],
+  },
+  {
+    name: 'Crypto',
+    components: [tokenGenerator, hashText, bcrypt, uuidGenerator, ulidGenerator, cypher, bip39, hmacGenerator, rsaKeyPairGenerator, passwordStrengthAnalyser, pdfSignatureChecker],
+  },
+  {
+    name: 'Network',
+    components: [ipv4AddressConverter, ipv4SubnetCalculator, ipv4RangeExpander, macAddressLookup, macAddressGenerator, ipv6UlaGenerator],
+  },
+  {
+    name: 'Math',
+    components: [mathEvaluator, etaCalculator, percentageCalculator],
+  },
+  {
+    name: 'Measurement',
+    components: [chronometer, temperatureConverter, benchmarkBuilder],
   },
 ];
 

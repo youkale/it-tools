@@ -4,7 +4,7 @@ import { translate } from '@/plugins/i18n.plugin';
 
 export const tool = defineTool({
   name: translate('tools.basic-auth-generator.title'),
-  path: '/basic-auth-generator',
+  path: '/basic-auth-generate',
   description: translate('tools.basic-auth-generator.description'),
   keywords: [
     'basic',

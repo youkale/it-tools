@@ -4,7 +4,7 @@ import { translate } from '@/plugins/i18n.plugin';
 
 export const tool = defineTool({
   name: translate('tools.chmod-calculator.title'),
-  path: '/chmod-calculator',
+  path: '/unix-chmod-calculator',
   description: translate('tools.chmod-calculator.description'),
   keywords: [
     'chmod',

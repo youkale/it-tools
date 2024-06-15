@@ -18,7 +18,7 @@ const rawJsonValidation = useValidation({
   rules: [
     {
       validator: v => v === '' || JSON5.parse(v),
-      message: 'Provided JSON is not valid.',
+      message: 'Put JSON is not valid.',
     },
   ],
 });
@@ -44,7 +44,7 @@ const rawJsonValidation = useValidation({
     <c-input-text
       ref="inputElement"
       v-model:value="rawJson"
-      placeholder="Paste your raw JSON here..."
+      placeholder="Put your JSON string here..."
       rows="20"
       multiline
       autocomplete="off"
@@ -54,7 +54,7 @@ const rawJsonValidation = useValidation({
       monospace
     />
   </n-form-item>
-  <n-form-item label="Prettified version of your JSON">
+  <n-form-item label="Prettified version of your JSON string">
     <TextareaCopyable :value="cleanJson" language="json" :follow-height-of="inputElement" />
   </n-form-item>
 </template>

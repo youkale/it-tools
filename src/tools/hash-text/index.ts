@@ -4,7 +4,7 @@ import { translate } from '@/plugins/i18n.plugin';
 
 export const tool = defineTool({
   name: translate('tools.hash-text.title'),
-  path: '/hash-text',
+  path: '/text-hasher',
   description: translate('tools.hash-text.description'),
   keywords: [
     'hash',

@@ -4,7 +4,7 @@ import { translate } from '@/plugins/i18n.plugin';
 
 export const tool = defineTool({
   name: translate('tools.json-to-csv.title'),
-  path: '/json-to-csv',
+  path: '/json-2-csv-converter',
   description: translate('tools.json-to-csv.description'),
   keywords: ['json', 'to', 'csv', 'convert'],
   component: () => import('./json-to-csv.vue'),

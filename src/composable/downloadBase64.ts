@@ -10,11 +10,11 @@ export {
 };
 
 const commonMimeTypesSignatures = {
-  'JVBERi0': 'application/pdf',
-  'R0lGODdh': 'image/gif',
-  'R0lGODlh': 'image/gif',
-  'iVBORw0KGgo': 'image/png',
   '/9j/': 'image/jpg',
+  'JVBERi0': 'application/pdf',
+  'R0lGODlh': 'image/gif',
+  'R0lGODdh': 'image/gif',
+  'iVBORw0KGgo': 'image/png',
 };
 
 function getMimeTypeFromBase64({ base64String }: { base64String: string }) {

@@ -5,7 +5,7 @@ export const lightThemeOverrides: GlobalThemeOverrides = {
     itemHeight: '32px',
   },
 
-  Layout: { color: '#f1f5f9' },
+  Layout: { color: '#f1f4fA' },
 
   AutoComplete: {
     peers: {
@@ -16,19 +16,19 @@ export const lightThemeOverrides: GlobalThemeOverrides = {
 
 export const darkThemeOverrides: GlobalThemeOverrides = {
   common: {
-    primaryColor: '#1ea54cFF',
-    primaryColorHover: '#36AD6AFF',
-    primaryColorPressed: '#0C7A43FF',
-    primaryColorSuppl: '#36AD6AFF',
+    primaryColor: '#3294da',
+    primaryColorHover: '#4f6ac2',
+    primaryColorPressed: '#0357d5',
+    primaryColorSuppl: '#4669f1',
   },
 
   Notification: {
-    color: '#333333',
+    color: '#8a8989',
   },
 
   AutoComplete: {
     peers: {
-      InternalSelectMenu: { height: '500px', color: '#1e1e1e' },
+      InternalSelectMenu: { height: '500px', color: '#1f1f1f' },
     },
   },
 

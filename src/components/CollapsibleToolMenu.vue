@@ -47,7 +47,7 @@ const themeVars = useThemeVars();
 <template>
   <div v-for="{ name, tools, isCollapsed } of menuOptions" :key="name">
     <div ml-6px mt-12px flex cursor-pointer items-center op-60 @click="toggleCategoryCollapse({ name })">
-      <span :class="{ 'rotate-0': isCollapsed, 'rotate-90': !isCollapsed }" text-16px lh-1 op-50 transition-transform>
+      <span :class="{ 'rotate-0': isCollapsed, 'rotate-90': !isCollapsed }" lh-1 op-50 text-16px transition-transform>
         <icon-mdi-chevron-right />
       </span>
 
@@ -96,14 +96,14 @@ const themeVars = useThemeVars();
     cursor: pointer;
 
     &::before {
+      background-color: v-bind('themeVars.textColor3');
       width: 2px;
       height: 100%;
       content: ' ';
-      background-color: v-bind('themeVars.textColor3');
+      top: 0;
       border-radius: 2px;
       position: absolute;
-      top: 0;
-      left: 14px;
+      left: 13px;
     }
 
     &:hover {

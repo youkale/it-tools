@@ -24,4 +24,4 @@ app.use(router);
 app.use(naive);
 app.use(plausible);
 
-app.mount('#app');
+app.mount('#root');

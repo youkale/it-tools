@@ -24,7 +24,6 @@ const theme = useThemeVars();
           >
             {{ $t('toolCard.new') }}
           </div>
-
           <FavoriteButton :tool="tool" />
         </div>
       </div>
