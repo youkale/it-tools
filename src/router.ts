@@ -18,6 +18,8 @@ const toolsRedirectRoutes = tools
     ({ path, redirectFrom }) => redirectFrom?.map(redirectSource => ({ path: redirectSource, redirect: path })) ?? [],
   );
 
+const sitemap = toolsRoutes.map(x => "https://1024code.tools" + x.path);
+console.log(JSON.stringify(sitemap));
 const router = createRouter({
   history: createWebHistory(config.app.baseUrl),
   routes: [
