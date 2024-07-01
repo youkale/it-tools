@@ -1,23 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 275">
   <defs>
-    <linearGradient id="small-hero-gradient-1" x1="13.74" y1="183.7" x2="303.96" y2="45.59" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#25636c"/>
-      <stop offset="0.6" stop-color="#3b956f"/>
-      <stop offset="1" stop-color="#14a058"/>
+    <linearGradient id="adjusted-gradient" x1="13.74" y1="183.7" x2="303.96" y2="45.59" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2e8b57"/> <!-- 调整起始颜色为海绿色 -->
+      <stop offset="0.6" stop-color="#66cdaa"/> <!-- 调整中间颜色为中等海绿色 -->
+      <stop offset="1" stop-color="#20b2aa"/> <!-- 调整结束颜色为淡青绿色 -->
     </linearGradient>
   </defs>
   <g>
     <g>
-      <path fill="#14a058" opacity="0.49" d="M0,187.5v25s0,37.5,50,50S300,225,300,225V187.5Z"/>
+      <path fill="#20b2aa" opacity="0.49" d="M0,180v30s0,40,50,60S300,230,300,230V180Z"/>
     </g>
     <g>
-      <path fill="#14a058" opacity="0.49" d="M300,237.5S287.5,275,250,275,121.05,237.5,61.4,200s134.21,0,134.21,0Z"/>
+      <path fill="#20b2aa" opacity="0.49" d="M300,240S280,275,240,275,120,240,60,200s130,0,130,0Z"/>
     </g>
     <g>
-      <path fill="#14a058" opacity="0.38" d="M0,200v12.5a241.47,241.47,0,0,0,112.5,50c73.6,11.69,130.61-14.86,150-25L300,200Z"/>
+      <path fill="#20b2aa" opacity="0.38" d="M0,200v20a240,240,0,0,0,110,50c70,12,130-20,150-30L300,200Z"/>
     </g>
     <g>
-      <path fill="url(#small-hero-gradient-1)" d="M0,0V212.5s62.5-12.5,150,25,150,0,150,0V0Z"/>
+      <path fill="url(#adjusted-gradient)" d="M0,0V220s60-20,150,30,150,0,150,0V0Z"/>
     </g>
   </g>
 </svg>

@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap: https://1024code.tools/sitemap.txt
+Sitemap: https://1024code.tools/sitemap.xml
