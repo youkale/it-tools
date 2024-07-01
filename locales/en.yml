@@ -168,7 +168,8 @@ tools:
     description: 'Transform string cases across various formats.'
   html-entities:
     title: 'HTML Entities Escaper'
-    description: 'Escape or unescape HTML entities for characters like <, >, &, , and .'
+    description: >-
+      Escape or unescape HTML entities for characters like <, >, &, " , and '.
   json-prettify:
     title: 'JSON Prettify and Format'
     description: 'Prettify JSON data into a human-readable format.'
