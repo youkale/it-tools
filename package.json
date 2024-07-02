@@ -1,6 +1,6 @@
 {
-  "name": "it-dev.tools",
-  "version": "2024.6.18",
+  "name": "1024code.tools",
+  "version": "2024.07.03",
   "license": "GNU GPLv3",
   "scripts": {
     "dev": "vite",
