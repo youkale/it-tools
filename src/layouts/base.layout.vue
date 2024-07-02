@@ -92,27 +92,15 @@ const tools = computed<ToolCategory[]>(() => [
 </template>
 
 <style lang="less" scoped>
-// ::v-deep(.n-layout-scroll-container) {
-//     @percent: 4%;
-//     @position: 25px;
-//     @size: 50px;
-//     @color: #eeeeee25;
-//     background-image: radial-gradient(@color @percent, transparent @percent),
-//         radial-gradient(@color @percent, transparent @percent);
-//     background-position: 0 0, @position @position;
-//     background-size: @size @size;
-// }
 
 .support-button {
-  background: rgb(37, 99, 108);
   background: linear-gradient(48deg, rgba(37, 99, 108, 1) 0%, rgba(59, 149, 111, 1) 60%, rgba(20, 160, 88, 1) 100%);
   color: #fff !important;
-  transition: padding ease 0.2s !important;
+  transition: padding 0.2s ease !important;
 
   &:hover {
     color: #fff;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 0 30px;
   }
 }
 
@@ -124,8 +112,7 @@ const tools = computed<ToolCategory[]>(() => [
 }
 
 .sider-content {
-  padding-top: 160px;
-  padding-bottom: 200px;
+  padding: 160px 0 200px;
 }
 
 .hero-wrapper {
@@ -166,4 +153,5 @@ const tools = computed<ToolCategory[]>(() => [
     }
   }
 }
+
 </style>

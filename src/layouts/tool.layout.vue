@@ -92,17 +92,15 @@ const toolDescription = computed<string>(() => t(`tools.${i18nKey.value}.descrip
     .separator {
       width: 200px;
       height: 2px;
-      background: rgb(161, 161, 161);
-      opacity: 0.2;
-
+      background: rgba(161, 161, 161, 0.2);
       margin: 10px 0;
     }
 
     .description {
       margin: 0;
-
       opacity: 0.7;
     }
   }
 }
+
 </style>
