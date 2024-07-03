@@ -22,7 +22,6 @@ const { icon, title } = toRefs(props);
 
 <style lang="less" scoped>
 .colored-card {
-  background: rgb(37, 99, 108);
   background: linear-gradient(48deg, rgba(37, 99, 108, 1) 0%, rgba(59, 149, 111, 1) 60%, rgba(20, 160, 88, 1) 100%);
   color: #fff;
   border: none;
@@ -33,20 +32,18 @@ const { icon, title } = toRefs(props);
 
   .title {
     color: #fff;
-
     margin: 5px 0;
   }
 
   .description {
     opacity: 0.8;
-
     margin: 5px 0;
 
     ::v-deep(a) {
       color: inherit;
       text-decoration: underline;
       font-weight: bold;
-      transition: color ease 0.2s;
+      transition: color 0.2s ease;
 
       &:hover {
         color: rgb(20, 20, 20);

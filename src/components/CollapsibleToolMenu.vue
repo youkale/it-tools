@@ -78,6 +78,7 @@ const themeVars = useThemeVars();
 .menu-wrapper {
   display: flex;
   flex-direction: row;
+
   .menu {
     flex: 1;
     margin-bottom: 5px;
@@ -91,7 +92,7 @@ const themeVars = useThemeVars();
   .toggle-bar {
     width: 24px;
     opacity: 0.1;
-    transition: opacity ease 0.2s;
+    transition: opacity 0.2s ease;
     position: relative;
     cursor: pointer;
 

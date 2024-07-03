@@ -142,8 +142,7 @@ function activateOption(option: PaletteOption) {
   font-size: 18px;
 
   ::v-deep(.input-wrapper) {
-      padding: 4px;
-      padding-left: 18px;
+    padding: 4px 4px 4px 18px;
   }
 }
 

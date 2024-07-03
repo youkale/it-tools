@@ -21,15 +21,14 @@ const theme = useThemeVars();
 
   .badge {
     position: absolute;
+    top: 3px;
+    left: -6px;
+    height: 6px;
+    width: 6px;
     background-color: v-bind('theme.primaryColor');
     border-radius: 10px;
     line-height: 1;
-    top: 3px;
-    left: -6px;
     font-size: 10px;
-
-    height: 6px;
-    width: 6px;
   }
 }
 </style>
