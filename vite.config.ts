@@ -58,9 +58,9 @@ export default defineConfig({
       strategies: 'generateSW',
       manifest: {
         name: 'IT-Dev Tools',
-        description: 'Aggregated set of useful tools for developers.',
+        description: 'Useful online tools for developers',
         display: 'standalone',
-        lang: 'fr-FR',
+        lang: 'en-US',
         start_url: `${baseUrl}?utm_source=pwa&utm_medium=pwa`,
         orientation: 'any',
         theme_color: '#18a058',
