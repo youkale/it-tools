@@ -1,3 +1,9 @@
 User-agent: *
-Disallow:
+
+Allow: /
+
+Disallow: /sitemap.txt
+Disallow: /yaml-to-json-converter
+Disallow: /user-agent-parser
+
 Sitemap: https://1024code.tools/sitemap.xml
